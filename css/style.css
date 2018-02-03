@@ -1,0 +1,99 @@
+#informacoes-eventos{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+	color: #fed330;
+}
+.center{
+	text-align: center;
+}
+.profile{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #0B6887;
+}
+.home{
+	background-image: url('../imagens/back.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nome-dev{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: #F7F7F7;
+	font-size: 50pt;
+}
+.lead, .descricao-dev{
+	font-family: 'Bungee Hairline', cursive;
+	color:#0B6887;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.nav-link{
+	font-family: 'Bungee Hairline', cursive;
+
+	color:#0B6887;
+	font-weight: bold;
+}
+
+.center, .sobre{
+	font-family: 'Poiret One', cursive;
+	color:#0B6887;
+}
+
+.informacoes{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+	border-top: 1px solid #0B6887;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	padding-top: 6px;
+}
+.navbar-brand{
+	font-family: 'Poiret One', cursive;
+	color:#0B6887;
+	font-weight: bold;
+}
+.fotos-eventos{
+	width:250px;
+	height:250px;
+	border-style: solid;
+	border-color: #0B6887;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+.fa{
+    padding: 7px;
+    font-size: 30px;
+    width: 34px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px -114px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 4px;
+}
+.btn, .btn-info{
+	font-family: 'Poiret One', cursive;
+}
+.dev, .text-primary{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.center-eventos{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn, .btn-info{
+    box-shadow: 5px 6px 8px rgba(0,0,0,0.1);
+}

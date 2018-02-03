@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Mariana Barreiros</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+  		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Quicksand" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Poiret+One|Quicksand" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	</head>
+	<body>
+		<nav class="menu">	
+			<div class="row">
+				<div class="col ml-2">
+					<p class="navbar-brand">Mariana Barreiros</p>
+				</div>
+				<!-- <div class="col ml-2">
+					<a href="https://www.linkedin.com/in/mariana-barreiros-39892a33/" class="fa fa-linkedin" target="blank"></a>
+				</div> -->
+				<div class="col">
+					<ul class="nav justify-content-end menu">
+						<li class="nav-item">
+							<a href="#sobre" class="nav-link scroll-animate ">Sobre</a>
+						</li>
+						<li class="nav-item">
+							<a href="#Portifólio" class="nav-link scroll-animate">Portifólio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#eventos" class="nav-link scroll-animate">Eventos</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contato" class="nav-link scroll-animate">Contato</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</nav>
+		<div id="home" class="jumbotron home">
+			<div class="center"> 
+				<h1 class="nome-dev">Mariana Barreiros</h1>
+				<p class="lead descricao-dev">Desenvolvedora de Sistemas</p>
+				<a id="conheca-me" href="#sobre"><button class="btn btn-info">Conheça-me! =)</button></a>
+			</div>
+		</div>
+		<div class="container">
+			<section id="sobre">
+				<h1 class="center sobre">Sobre</h1>
+				<div class="row">
+					<div class="col-sm-6 center">
+						<img src="imagens/mariana.jpg" class="profile">
+					</div>
+					<div class="col-sm-6 mt-4">
+						<ul>
+							<li class="informacoes">Graduanda em Análise e Desenvolvimento de Sistemas pelo Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA)</li>
+			    			<li class="informacoes">Atuante nas comunidades <span lang="en">PyLadies</span>  Salvador, MulheradaTi e <span lang="en">Django Girls</span>  Salvador</li>
+			    			<li class="informacoes">Organizadora da primeira edição do <span lang="en">Django Girls</span>  Salvador (2017)</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="Portifólio">
+				<h1 class="center eventos">Portifólio</h1>
+				<p id="informacoes-eventos">Ops! Por enquanto sem portfólio =/. Quer ser a primeira pessoa? Entre em contato!</p>
+			</section>
+			<section id="eventos">
+				<h1 class="center eventos">Eventos</h1>
+					<p id="informacoes-eventos">Eventos nos quais participei como organizadora ou palestrante</p>
+				<div class="row">
+			        <div class="center-eventos  center col-sm-6 col-md-4">
+			        	<img src="imagens/wtm4.jpg" class="fotos-eventos" title="Women Tack Maker - Google">
+			        	<p>Women Tack Maker - Google</p>
+			        </div>
+			        <div class="center-eventos col-sm-6 col-md-4">
+			        	<img src="imagens/python.jpg" class="fotos-eventos" title="Python Orientado a Objetos">
+			        	<p>Python Orientado a Objeto - UFBA</p>
+			        </div>
+			        <div class="center-eventos col-sm-6 col-md-4">
+			        	<img src="imagens/sencomp.jpg" class="fotos-eventos" title="O Fanstástico Mundo do Webscraping">
+			        	<p>O Fantástico mundo do Webscraping - SEMCOMP</p>
+			        </div>
+			        <div class="center-eventos col-sm-6 col-md-4">
+			        	<img src="imagens/django.jpg" class="fotos-eventos" title="Django Girls Salvador 2017">
+			        	<P>Django Girls Salvador 2017</P>
+			        </div>
+			        <div class="center-eventos col-sm-6 col-md-4">
+			        	<img src="imagens/genero.jpg" class="fotos-eventos" title="1ª Discussão de Gênero do Cuso de Análise e Desenvolvimento de Sistemas do IFBA">
+			        	<p>1ª Discussão de Gênero do Curso de ADS - IFBA</p>
+			        </div>
+			        <div class="center-eventos col-sm-6 col-md-4">
+			        	<img src="imagens/cp.jpg" class="fotos-eventos" title="Painel A Periféria dá Ciência">
+			        	<p>Painel "A Periféria dá Ciência" 2017</p>
+			        </div>
+    			</div>
+			</section>
+		</div>
+		<section id="contato">
+				<h1 class="center">Contanto</h1>
+				<form>
+					<div class="form-group">
+				     	<input class="form-control" title="Nome" id="name" type="text" name="name" placeholder="Nome" required="required">
+				    </div>
+				    <div class="form-group">
+				      	<input class="form-control" title="E-mail" id="email" type="email" name="E-mail" placeholder="Seu e-mail" required="required">
+				    </div>
+				    <div class="form-group">
+				      	<textarea class="form-control" title="Mensagem" id="mensagem" name="mensagem" placeholder="Mensagem" spellcheck="true"></textarea>
+				    </div>
+				    <div class="row">
+					    <div class="col-6">
+					      	<input type="submit" class="btn btn-primary" value="Enviar"/>
+					    </div>	
+					    <div class="col-6 text-right">
+					    	<input type="reset" class="btn btn-secondary" value="Limpar">
+					 	</div>
+				 	</div>
+				</form>
+			</section>
+			<footer class="footer mt-2">
+				<p class="title center">
+					Desenvolvido com <span class="text-danger">&hearts;</span> por <span class="dev text-primary">Mariana Barreiros</span>.
+				</p>
+			</footer>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
