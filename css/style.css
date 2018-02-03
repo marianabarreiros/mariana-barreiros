@@ -96,6 +96,7 @@
 }
 .btn, .btn-info{
     box-shadow: 5px 6px 8px rgba(0,0,0,0.1);
+    margin-right: 8px;
 }
 
 .social-link{
@@ -104,4 +105,8 @@
 
 .social-link:hover{
 	background-color: :#1F6888;
+}
+
+.col-lg-8, .col-md-10, .mx-auto{
+	left: 108px;
 }
