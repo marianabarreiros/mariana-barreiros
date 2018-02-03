@@ -97,3 +97,11 @@
 .btn, .btn-info{
     box-shadow: 5px 6px 8px rgba(0,0,0,0.1);
 }
+
+.social-link{
+	color: #206989;
+}
+
+.social-link:hover{
+	background-color: :#1F6888;
+}
