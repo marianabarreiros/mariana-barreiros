@@ -4,9 +4,9 @@ $(document).ready(function (){
 	var $btnConhecame = $('#conheca-me');
 	// adiciona ação ao clique do botão
 	$btnConhecame.on('click', function(){
-		var conf = confirm('Você deseja continuar?');
+		var conf = confirm('Você será redirecionada(o) para o meu curriculum online? Deseja continuar?');
 		if(conf){
-			alert('Muito Obrigada!')
+			alert('=)')
 		}else{
 			alert(':(');
 		}
