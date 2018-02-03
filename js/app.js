@@ -5,11 +5,11 @@ $(document).ready(function (){
 	// adiciona ação ao clique do botão
 	$btnConhecame.on('click', function(){
 		var conf = confirm('Você será redirecionada(o) para o meu curriculum online? Deseja continuar?');
-		if(conf){
-			alert('=)')
-		}else{
-			alert(':(');
-		}
+		// if(conf){
+		// 	alert('=)')
+		// }else{
+		// 	alert(':(');
+		// }
 	});
 
 	$('.scroll-animate').on('click', function(event) {
