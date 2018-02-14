@@ -81,7 +81,7 @@
     margin: 8px -114px;
 }
 .fa-linkedin {
-  background: #007bb5;
+  /*background: #007bb5;*/
   color: white;
   border-radius: 4px;
 }
@@ -113,3 +113,4 @@
 .col-lg-8, .col-md-10, .mx-auto{
 	left: 108px;
 }
+
