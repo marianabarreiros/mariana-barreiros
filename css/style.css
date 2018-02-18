@@ -117,6 +117,17 @@
 .btn, .btn-info{
     box-shadow: 5px 6px 8px rgba(0,0,0,0.1);
     margin-right: 8px;
+    /*para as animações*/
+    animation-name: flash;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+/*para a animação do botão*/
+@keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
 }
 
 .social-link{
