@@ -1,3 +1,4 @@
 # Meu primeiro Site
 
-Primeiro projeto do site feito com html5, css, js usando o Bootstrap
+	Minha página pessoal. Site feito com css, html e bootstrap
+	Para visualizar, acesse [hyperlink syntax](https://marianabarreiros.github.io/mariana-barreiros/)
