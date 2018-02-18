@@ -136,6 +136,7 @@
 
 .social-link:hover{
 	background-color: :#1F6888;
+	transition: 1s;
 }
 
 .col-lg-8, .col-md-10, .mx-auto{
